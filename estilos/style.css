@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/*
+/* 
 Paleta de cores
 Verde: #49a09d
 Lilás: #9c51cf
@@ -36,6 +36,8 @@ main{
     height: 500px;
     border-radius: 20px;
     overflow: hidden;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 #login > #imagem{
