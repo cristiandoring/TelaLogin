@@ -115,3 +115,29 @@ form > .campo{
     margin: 5px 0px;
 }
 
+.campo > label{
+    display: none;
+}
+
+.campo > i{
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+
+}
+
+.campo > input{
+    background-color:#ba89da;
+    transform: translate(0px,-10px);
+    font-size: 1em;
+    height: 75%;
+    width: calc(100% - 52px);
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+.campo>input:focus-within{
+    background-color: white;
+}
