@@ -56,8 +56,10 @@ main{
 
 h1{
     text-align: center;
+    margin-bottom: 10px;
 }
 p{
     text-align: justify;
+    font-size: 0.8em;
 }
 
